@@ -1,0 +1,22 @@
+{
+	"name": "sanmark/illuminated-phinx-base",
+	"description": "Base for https://github.com/sanmark/illuminated-phinx/ .",
+	"type": "library",
+	"require": {
+		"illuminate/database": "^5.6",
+		"robmorgan/phinx": "^0.9.2"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Sanmark Solutions PVT LTD (Sri Lanka)",
+			"email": "work@theSanmark.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"Sanmark\\": "src\\Sanmark"
+		}
+	}
+}
